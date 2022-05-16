@@ -16,6 +16,9 @@ body{
     text-align: center;
     align-items: center;
 }
+.self-center {
+    align-self: center;
+}
 /* header */
 main{
     padding: 1em;
@@ -53,4 +56,10 @@ footer a{
 }
 footer .flex-c-row {
     justify-content: space-around;
+}
+footer hr, .flex-c-row.space-between{
+    width: 90%;
+}
+footer .space-between{
+    justify-content: space-between;
 }
